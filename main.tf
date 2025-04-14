@@ -1,16 +1,16 @@
 ## PUT TERRAFORM CLOUD BLOCK HERE!  ##
 
 terraform {
-  
-  cloud { 
-    
-    organization = "GM_tr_course" 
 
-    workspaces { 
-      name = "lesson-11-wrkspace" 
-    } 
-  } 
-  
+  cloud {
+
+    organization = "GM_tr_course"
+
+    workspaces {
+      name = "lesson-11-wrkspace"
+    }
+  }
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
